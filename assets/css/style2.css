@@ -36,3 +36,23 @@ body {
   background-color: white;
   text-align: center;
 }
+#listItems li{
+  list-style: none;
+}
+
+#listItems li input[type="checkbox"]{
+  margin-right: 10px;
+} 
+#listItems li input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
+/* div.list-item label:checked {
+  text-decoration: line-through;
+}
+
+label:has(input:checked) {
+  text-decoration: line-through;
+  text-decoration-color: red;
+} */
