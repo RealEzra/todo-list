@@ -11,6 +11,11 @@ body {
     background-color: #40444b;
     color: white;
     border-radius: 25px;
+    width: 20rem;
+}
+
+#input-item::placeholder {
+    color: #828485;
 }
 
 #input-item:focus {
@@ -41,3 +46,7 @@ div.list-item label:checked {
 input:checked {
     accent-color: white;
 } 
+
+a {
+    color: white;
+}

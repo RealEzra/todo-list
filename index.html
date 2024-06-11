@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODO List</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <div id="container">
-        <p> <a href="index2.html" target="_self">My to Do List 2.0</a></p>
+        <a href="index2.html" target="_self">My to Do List 2.0</a>
         <h1>My TO DO List</h1>
         <form>
             <div id="add-item">
                 <input onkeydown="if(event.keyCode === 13) {
                     addNewItem(); 
                     return false;
-                }" type="text" name="" id="input-item">
+                }" placeholder="Add some text here and click the button or press enter" type="text" name="" id="input-item">
                 <button type="button" onclick="addNewItem()">Add to List</button>
             </div>
     
             <br><br>
         </form>
     </div>
-    <script src="./index.js"></script> 
+    <script src="./assets/js/index.js"></script> 
 </body>
 </html>
