@@ -36,12 +36,12 @@ body {
   background-color: white;
   text-align: center;
 }
+
 #listItems li{
   list-style: none;
 }
-
 #listItems li input[type="checkbox"]{
-  margin-right: 10px;
+  margin-right: 5000px;
 } 
 #listItems li input[type="checkbox"]:checked + span {
   text-decoration: line-through;
