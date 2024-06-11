@@ -50,3 +50,11 @@ input:checked {
 a {
     color: white;
 }
+
+label:hover {
+    background-color: black;
+}
+
+label {
+    word-wrap: break-word;
+}

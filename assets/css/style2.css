@@ -12,3 +12,18 @@ ul li {
     -ms-user-select: none;
     user-select: none;
   }
+/*odd color chg*/
+  ul li:nth-child(odd) {
+    background: #6495ED;
+  }
+/*hover color chg*/
+  ul li:hover {
+    background: #40444b;
+    color: white;
+  }
+/* When clicked on, add a background color and strike out text */
+  ul li.checked {
+    background: white;
+    color: black;
+    text-decoration: line-through;
+  }
