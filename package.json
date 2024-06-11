@@ -1,0 +1,23 @@
+{
+  "name": "todo-list",
+  "version": "0.0.0",
+  "description": "A simple todo list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealEzra/todo-list.git"
+  },
+  "author": "Ezra Dulaney and Clinton Boswell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RealEzra/todo-list/issues"
+  },
+  "homepage": "https://github.com/RealEzra/todo-list#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
